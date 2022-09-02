@@ -1,6 +1,0 @@
-#!/bin/bash
-read -p 'Name of file: ' filename
-touch $filename
-chmod 777 $filename
-echo "#!/bin/bash" >> $filename
-vi $filename
