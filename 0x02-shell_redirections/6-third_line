@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n 3p my.txt 
+awk 'FNR==3 {print}' my.txt
